@@ -6,6 +6,9 @@ public class DateTest
         Scanner keyboard = new Scanner(System.in);
 
         Date d1 = new Date();
+        String[] monthName = 
+        {"0","January","February","March","April","May","June",
+        "July","August","September","October","November","December"};
 
         System.out.println("Enter the month.");
         int theMonth = keyboard.nextInt();
@@ -16,8 +19,9 @@ public class DateTest
             theMonth = keyboard.nextInt();
         }
         d1.setMonth(theMonth);
+        d1.setNameOfMonth(monthName[theMonth]);
 
-        System.out.println("Enter the day.");
+        System.out.println("\nEnter the day.");
         int theDay = keyboard.nextInt();
         while(theDay < 1 || theDay > 31)
         {
@@ -27,7 +31,7 @@ public class DateTest
         }
         d1.setDay(theDay);
 
-        System.out.println("Enter the year.");
+        System.out.println("\nEnter the year.");
         d1.setYear(keyboard.nextInt());
 
         d1.theDate();
