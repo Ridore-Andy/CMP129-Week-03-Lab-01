@@ -2,16 +2,16 @@
 
 ## Student Information
 
-- Student name:
-- Week:
-- Lab:
-- Date:
+- Student name: Andy Ridore
+- Week: 3
+- Lab: 1
+- Date: 9/22/2026
 
 ## AI Use
 
 Did you use an AI tool for this lab?
 
-- [ ] Yes
+- [y] Yes
 - [ ] No
 
 If yes, complete the sections below. If no, write “No AI tool was used” under Summary.
@@ -20,31 +20,31 @@ If yes, complete the sections below. If no, write “No AI tool was used” unde
 
 Examples: GitHub Copilot, ChatGPT, Microsoft Copilot, or another tool.
 
-Tool:
+Tool: GitHub Copilot
 
 ## Assistance Requested
 
 Describe what you asked the AI tool to help you understand or troubleshoot.
 
-Response:
+Response: I asked the ai to help me understand how the constructors were working.
 
 ## How I Used the Assistance
 
 Explain which suggestions you used, changed, or rejected. Do not paste an entire AI conversation.
 
-Response:
+Response: I asked it how I should the variables in the constructor and it suggested to use this.fieldName.
 
 ## Testing and Verification
 
 Explain how you tested the code and confirmed that the AI assistance was accurate.
 
-Response:
+Response: Everything ran and displayed the way I was looking for.
 
 ## What I Learned
 
 Describe one concept or programming skill you understand better after completing the lab.
 
-Response:
+Response: I think I understand constructors a little more.
 
 ## Summary
 
